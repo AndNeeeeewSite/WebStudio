@@ -1,0 +1,135 @@
+:root{
+    --color1:#2196F3;
+    --color2:#F5F4FA;
+    --color3:#ECECEC;
+    --color4:#FFFFFF;
+    --color5:#2F303A;
+    --color6:#000000;
+    --color7:#757575;
+    --color8:#212121;
+    --color9:#EEEEEE;
+}
+
+
+    header{
+        font-family: 'Roboto', sans-serif;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.48px;
+    }
+    .galery-title-h3:nth-of-type(1){
+        font-family: 'Roboto', sans-serif;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.48px;
+    }
+
+    footer{
+
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.42px; 
+    }
+
+    .galery-link:nth-of-type(3n){
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.42px;
+    }
+
+    .galery-title-h3:nth-of-type(2n){
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.42px;
+    }
+
+    .galery-paragraph{
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        letter-spacing: 0.42px;
+    }
+
+  .galery-title-h4{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .galery-title-h2{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+
+  .galery-button{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .footer-logo,
+ .header-logo{
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+ }
+
+
+ .galery-title-h1{
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+ }
+
+ .header-link{
+    color:var(--color6)
+}
+.header-info{
+    color:var(--color7) 
+}
+.header-link:hover{
+    color:var(--color1)
+}
+.header-info:hover{
+    color:var(--color1) 
+}
+
+
+.header-list{
+    list-style-type:none
+}
