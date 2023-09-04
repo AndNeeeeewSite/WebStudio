@@ -137,24 +137,22 @@
 .container{
 width: 1600px;
 margin-left:215px;
-padding: 0 15px;
+padding: 0 auto;
 }
-
-
 header{
     margin-bottom: 232px;
 }
-
 .galery-title-h1{
     margin-bottom: 30px; 
 }
 .galery-button{
-    margin-bottom: 294px; 
+    margin-bottom: 294px;
+    background-color: var(--color1);
+    color: var(--color9);
 }
 .galery-section{
     margin-bottom: 188px;
 }
-
 .galery-section-description{
     margin-bottom: 118px; 
 }
@@ -162,7 +160,79 @@ header{
 .galery-title-h2{
     margin-bottom: 50px; 
 }
-
 .footer{
     margin-top: 94px;
+}
+.header-div{
+    display: flex;
+}
+ .header-list-info,
+.header-list{
+    display: flex;
+    margin-top: 32px;
+}
+.header-item{
+    margin-left: 50px;
+}
+
+.header-logo{
+    margin-top: 24px;
+}
+
+.header-list-info{
+    margin-left:344px;
+}
+.header-list{
+    margin-left:93px;
+}
+.galery-button{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 292px;
+}
+.galery-title-h1{
+    display: flex;
+    justify-content: center;
+}
+.galery-section-description{
+display: flex;
+justify-content: center;
+}
+
+.galery-list{
+    margin-left: 30px;
+}
+
+
+.galery-title-h2{
+    display: flex;
+    justify-content: center;
+}
+.galery-list{
+    display: flex;
+    justify-content: center;
+}
+.galery-image{
+    margin-left: 30px;
+}
+.galery-title-h3{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo{
+    margin-top: 154px;
+    margin-bottom:20px;
+}
+.header-link{
+    margin-bottom:9px;
+}
+
+.footer-title-h3{
+    margin-bottom:9px; 
+}
+
+.footer{
+    margin-bottom:60px; 
 }
