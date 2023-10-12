@@ -11,6 +11,7 @@
 }
 
 
+
     header{
         font-family: 'Roboto', sans-serif;
         font-family: Roboto;
@@ -56,6 +57,8 @@
         font-weight: 400;
         line-height: 24px; /* 171.429% */
         letter-spacing: 0.42px;
+        margin-bottom:30px;
+
     }
 
     .galery-paragraph{
@@ -139,9 +142,7 @@ width: 1600px;
 margin-left:215px;
 padding: 0 auto;
 }
-header{
-    margin-bottom: 232px;
-}
+
 .galery-title-h1{
     margin-bottom: 30px; 
 }
@@ -213,9 +214,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
-.galery-image{
-    margin-left: 30px;
-}
+
 .galery-title-h3{
     display: flex;
     justify-content: center;
@@ -236,3 +235,45 @@ justify-content: center;
 .footer{
     margin-bottom:60px; 
 }
+.galery-head{
+    padding-top: 232px;
+    display: grid;
+    grid-template-columns: auto ;
+    background-image: url(/img/17.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 94px;
+}
+.galery-title-h1{
+    color: #FFFFFF;
+}
+
+
+.galery-div{
+    background-color: #F5F4FA;
+}
+
+.galery-title-h4{
+    margin-top: 30px;
+}
+
+.galery-item-people{
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 30px;
+    
+}
+
+
+.galery-item{
+margin-left: 30px;
+}
+
+
+
+
+.galery-title-h3:nth-child(3n){
+  margin-top:30px;
+}
+
+

@@ -34,7 +34,7 @@ body{
 
 
 
-.galery-link-h3{
+.portfolio-galery-link-h3{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +42,7 @@ body{
     letter-spacing: 0.42px;
 }
 
-.galery-link-h2{
+.portfolio-galery-link-h2{
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -50,8 +50,8 @@ body{
         line-height: normal;
         letter-spacing: 0.42px;
 }
-.footer-logo,
- .header-logo{
+.portfolio-footer-logo,
+ .portfolio-header-logo{
     font-family: Roboto;
     font-size: 44px;
     font-style: normal;
@@ -61,32 +61,32 @@ body{
 
  }
 
- .header-link{
+ .portfolio-header-link{
     color:var(--color6)
 }
-.header-info{
+.portfolio-header-info{
     color:var(--color7) 
 }
-.header-link:hover{
+.portfolio-header-link:hover{
     color:var(--color1)
 }
-.header-info:hover{
+.portfolio-header-info:hover{
     color:var(--color1) 
 }
 
 
-.header-list{
+.portfolio-header-list{
     list-style-type:none
 }
 
 
-.galery-button{
+.portfolio-galery-button{
     background-color:var(--color2);
     border:var(--color9);
     color: #000000;
 }
 
-.galery-button:hover{
+.portfolio-galery-button:hover{
     background-color:var(--color1);
     border:var(--color1);
     color: #ffffff;
@@ -96,11 +96,11 @@ header{
     margin-bottom: 100px;
 }
 
-.galery-navigation{
+.portfolio-galery-navigation{
     margin-bottom: 56px;
 }
 
-.galery-link-img
+.portfolio-galery-link-img
 {
 margin-bottom: 20px;
 }
@@ -108,10 +108,10 @@ margin-bottom: 20px;
 footer{
     margin-top: 114px;
 }
-.galery-link-h2{
+.portfolio-galery-link-h2{
     margin-bottom:4px;
 }
-.galery-link-h3{
+.portfolio-galery-link-h3{
     margin-bottom:50px;
 }
 
@@ -137,7 +137,7 @@ footer{
             line-height: normal;
             letter-spacing: 0.48px;
         }
-        .galery-title-h3:nth-of-type(1){
+        .portfolio-galery-title-h3:nth-of-type(1){
             font-family: 'Roboto', sans-serif;
             font-family: Roboto;
             font-size: 16px;
@@ -157,7 +157,7 @@ footer{
             letter-spacing: 0.42px; 
         }
     
-        .galery-link:nth-of-type(3n){
+        .portfolio-galery-link:nth-of-type(3n){
             font-family: Roboto;
             font-size: 14px;
             font-style: normal;
@@ -166,7 +166,7 @@ footer{
             letter-spacing: 0.42px;
         }
     
-        .galery-title-h3:nth-of-type(2n){
+        .portfolio-galery-title-h3:nth-of-type(2n){
             font-family: Roboto;
             font-size: 14px;
             font-style: normal;
@@ -175,7 +175,7 @@ footer{
             letter-spacing: 0.42px;
         }
     
-        .galery-paragraph{
+        .portfolio-galery-paragraph{
             font-family: Roboto;
             font-size: 14px;
             font-style: normal;
@@ -185,7 +185,7 @@ footer{
             color: var(--color7);
         }
     
-      .galery-title-h4{
+      .portfolio-galery-title-h4{
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -194,7 +194,7 @@ footer{
         letter-spacing: 0.42px;
         text-transform: uppercase;
       }
-      .galery-title-h2{
+      .portfolio-galery-title-h2{
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -204,7 +204,7 @@ footer{
         text-transform: uppercase;
       }
     
-      .galery-button{
+      .portfolio-galery-button{
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -213,8 +213,8 @@ footer{
         letter-spacing: 0.42px;
         text-transform: uppercase;
       }
-      .footer-logo,
-     .header-logo{
+      .portfolio-footer-logo,
+     .portfolio-header-logo{
         font-family: Roboto;
         font-size: 44px;
         font-style: normal;
@@ -224,7 +224,7 @@ footer{
      }
     
     
-     .galery-title-h1{
+     .portfolio-galery-title-h1{
         font-family: Raleway;
         font-size: 26px;
         font-style: normal;
@@ -233,96 +233,126 @@ footer{
         letter-spacing: 0.78px;
      }
     
-     .header-link{
+     .portfolio-header-link{
         color:var(--color6)
     }
-    .header-info{
+    .portfolio-header-info{
         color:var(--color7) 
     }
-    .header-link:hover{
+    .portfolio-header-link:hover{
         color:var(--color1)
     }
-    .header-info:hover{
+    .portfolio-header-info:hover{
         color:var(--color1) 
     }
     
     
-    .header-list{
+    .portfolio-header-list{
         list-style-type:none
     }
     
-    .container{
+    .portfolio-container{
     width: 1600px;
     margin-left:215px;
     padding: 0 auto;
     }
-    .footer{
+    .portfolio-footer{
         margin-top: 94px;
     }
-    .header-div{
+    .portfolio-header-div{
         display: flex;
     }
-     .header-list-info,
-    .header-list{
+     .portfolio-header-list-info,
+    .portfolio-header-list{
         display: flex;
         margin-top: 32px;
     }
-    .header-item{
+    .portfolio-header-item{
         margin-left: 50px;
     }
     
-    .header-logo{
+    .portfolio-header-logo{
         margin-top: 24px;
     }
     
-    .header-list-info{
+    .portfolio-header-list-info{
         margin-left:344px;
     }
-    .header-list{
+    .portfolio-header-list{
         margin-left:93px;
     }
 
-   .galery-list-buttons{
+   .portfolio-galery-list-buttons{
     display: flex;
     justify-content: center;
    }
 
-   .galery-button{
+   .portfolio-galery-button{
     margin-left: 30px;
     margin-bottom: 50px;
    }
-   .galery-list-1{
-    display: flex;
-    justify-content: center;
-   }
 
-   .galery-list-2{
-    display: flex;
-    justify-content: center;
-   }
-
-   .galery-list-3{
-    display: flex;
-    justify-content: center;
-   }
-
-   .footer-logo{
+   .portfolio-footer-logo{
     margin-top: 154px;
     margin-bottom:20px;
 }
-.header-link{
+.portfolio-header-link{
     margin-bottom:9px;
 }
 
-.footer-title-h3{
+.portfolio-footer-title-h3{
     margin-bottom:9px; 
 }
 
-.footer{
+.portfolio-footer{
     margin-bottom:60px; 
 }
 
-.galery-item{
+.portfolio-galery-item{
     margin-left:30px; 
     margin-bottom:30px; 
+
 }
+
+
+.portfolio-galery-list-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1140px;
+    
+}
+
+.portfolio-galery-item{
+    border: 1px solid #EEE;
+background: #FFF;
+width: 370px;
+height: 404px;
+}
+
+.portfolio-galery-item:hover{
+    border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+width: 370px;
+height: 404px;
+}
+
+
+.portfolio-galery-section{
+    align-items: center;
+}
+
+
+.portfolio-galery-link-h2,
+.portfolio-galery-link-h3{
+    margin-left: 24px;
+}
+.portfolio-galery-button{
+    width: 125px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F5F4FA;
+text-align: center;
+}
+
