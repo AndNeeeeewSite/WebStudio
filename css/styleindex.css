@@ -139,8 +139,8 @@
 
 .container{
 width: 1600px;
-margin-left:215px;
-padding: 0 auto;
+margin: 0 auto;
+padding: 0 30px;
 }
 
 .galery-title-h1{
@@ -239,7 +239,7 @@ justify-content: center;
     padding-top: 232px;
     display: grid;
     grid-template-columns: auto ;
-    background-image: url("/img/team-people.jpg");
+    background-image: url("../img/team-people.jpg");
     background-repeat: no-repeat;
     margin-bottom: 94px;
 }
@@ -263,8 +263,6 @@ justify-content: center;
     margin-left: 30px;
     
 }
-
-
 .galery-item{
 margin-left: 30px;
 }
@@ -276,4 +274,50 @@ margin-left: 30px;
   margin-top:30px;
 }
 
+.antenna::before{
+content: url('../img/antenna.svg');
+background-repeat: no-repeat;
+padding-left: 100px;
+border-radius: 4px;
+background: #F5F4FA;
+padding-right: 100px;
+padding-top: 75px;
+padding-bottom: 25px;
+}
+
+.clock::before{
+content: url('../img/clock.svg');
+background-repeat: no-repeat;
+padding-left: 100px;
+border-radius: 4px;
+background: #F5F4FA;
+padding-right: 100px;
+padding-top: 75px;
+padding-bottom: 25px;  
+}
+
+
+.diagrama::before{
+content: url('../img/diagrama.svg');
+background-repeat: no-repeat;
+padding-left: 100px;
+border-radius: 4px;
+background: #F5F4FA;
+padding-right: 100px;
+padding-top: 75px;
+padding-bottom: 25px;      
+}
+
+
+.astronaut::before{
+content: url('../img/astronaut.svg');
+background-repeat: no-repeat;
+padding-left: 100px;
+border-radius: 4px;
+background: #F5F4FA;
+padding-right: 100px;
+padding-top: 75px;
+padding-bottom: 25px;    
+margin-bottom: 30px;
+}
 
