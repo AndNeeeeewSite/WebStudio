@@ -848,3 +848,43 @@ text-align: center;
     content: url("../img/Client6h.svg");
     outline: 1px solid #2196F3; 
 }
+
+.e-mail{
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 4px;
+    margin-right:10px;
+}
+.header-item-info{
+    display: flex;
+}
+
+.header-item-info-e-mail:hover .e-mail{
+    content:  url("../img/envelopeh.svg");
+}
+
+.header-item-info-e-mail:hover .info-e-mail-title{
+    color: #2196F3;
+}
+.header-item-info-e-mail,
+.header-item-info-number{
+    display: flex;
+}
+
+.number{
+    width: 10px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right:10px;
+    content: url("/img/smartphone.svg")
+}
+
+.header-item-info-number:hover .number{
+    content: url("../img/smartphoneh.svg");
+}
+
+.header-list-info{
+    gap:30px;
+}
