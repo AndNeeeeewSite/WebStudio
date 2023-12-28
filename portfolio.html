@@ -31,7 +31,44 @@
 				<a  class="header-link" href="portfolio.html"style="background-color: #ffffff;">Портфоліо</a>
 			</li>
 				<li class="header-item">
-				<a  class="header-link" href="#"style="background-color: #ffffff;">Контакти</a>	
+				<a  class="header-link" href="#"style="background-color: #ffffff;" data-modal-open >
+				Контакти
+				</a>	
+			<div class="modal-home-backdrop is-hidden" data-modal>
+					<div class="modal-home-modal">
+						<button class="modal-home-button-close" data-modal-close><img class="header-button-img-close" src="./img/button-close-modal.svg" alt=""></button>
+						<div class="content">
+							<h2 class="modal-home-title-h2">Залиште свої дані, ми вам передзвонимо</h2>
+							<form class="modal-home-form">
+								<ul class="modal-home-list">
+									<li class="modal-home-item name-item">
+										<h6 class="modal-home-title-h6 ">Ім'я</h6>
+										<input type="text" class="modal-home-input-data name">
+									</li>
+									<li class="modal-home-item nomer-item">
+										<h6 class="modal-home-title-h6 ">Телефон</h6>
+										<input type="text" class="modal-home-input-data nomer">
+									</li>
+									<li class="modal-home-item poshta-item">
+										<h6 class="modal-home-title-h6 ">Пошта</h6>
+										<input type="text" class="modal-home-input-data poshta">
+									</li>
+									<li class="modal-home-item com-item">
+										<h6 class="modal-home-title-h6 ">Коментар</h6>
+										<input type="text" class="modal-home-input-com" placeholder="Введіть текст">
+									</li>
+								</ul>
+							</form>
+							<div class="modal-home-div-doc">
+								<input type="checkbox" class="modal-home-check">
+								<h3 class="modal-home-title-h3">Погоджуюся з розсилкою та приймаю <span><a class="modal-home-a" href="">Умови договору</a></h3></span>
+								<button  class="modal-home-button">Відправити</button>								
+							</div>
+							
+						</div>
+							
+					</div>
+				</div>
 			</li>
 			</ul>
 			
@@ -128,56 +165,59 @@
 			</li>
 		</ul>
 	</section>
-	<footer class="footer ">
-		<article class="footer-article container">
-			<nav class="footer-navigation">
-				<a  class="footer-logo" href=""><span style="color: #2196F3;">Web</span>Studio</a>
-			</nav>
-			<nav class="footer-navigation">
-				<h3 class="footer-title-h3">м. Київ, пр-т Лесі Українки, 26</h3>
-			</nav>
-			<nav>
-				<ul class="footer-navigation" style="list-style-type: none;">
-					<li class="footer-item">
-						<a  class="footer-link" href="mailto:info@devstudio.com" style="color: rgb(160, 156, 167);">info@devstudio.com</a>
-					</li> 
-					<li class="footer-item">
-						<a  class="footer-link" style="color: rgb(160, 156, 167);" href="tel: +38 096 111 11 11">+38 096 111 11 11</a>
-				</li>
-				</ul>
-				
-			</nav>
-			
-		</article>
-		<div class="footer-div ">
-			<h4 class="footer-title-h4">приєднуйтесь</h3>
-			<ul class="footer-list">
-				
-			<li class="galery-item-people-img instagram-item">
-				<a class="galery-a-people-img" href="/">
-					<img class="galery-people-image instagram" src="./img/instagram.svg" alt="">
-				</a>
-				
-			</li>
-			<li class="galery-item-people-img twitter-item">
-				<a class="galery-a-people-img" href="/">
-				<img class="galery-people-image twitter" src="./img/twitter.svg" alt="">
-			</a>
-			</li>
-			<li class="galery-item-people-img facebook-item">
-				<a class="galery-a-people-img" href="/">
-				<img class="galery-people-image facebook" src="./img/facebook.svg" alt="">
-				</a>
-			</li>
-			<li class="galery-item-people-img linkedin-item">
-				<a class="galery-a-people-img" href="/">
-				<img class="galery-people-img linkedin" src="./img/linkedin.svg" alt="">
-				</a>
-			</li>
-		</ul>
-		</div>
-		
-	</footer>
 </main>
-</body>
+<footer class="footer ">
+	<article class="footer-article ">
+		<nav class="footer-navigation">
+			<a  class="footer-logo" href=""><span style="color: #2196F3;">Web</span>Studio</a>
+		</nav>
+		<nav class="footer-navigation">
+			<h3 class="footer-title-h3">м. Київ, пр-т Лесі Українки, 26</h3>
+		</nav>
+		<nav>
+			<ul class="footer-navigation" style="list-style-type: none;">
+				<li class="footer-item">
+					<a  class="footer-link" href="mailto:info@devstudio.com" style="color: rgb(160, 156, 167);">info@devstudio.com</a>
+				</li> 
+				<li class="footer-item">
+					<a  class="footer-link" style="color: rgb(160, 156, 167);" href="tel: +38 096 111 11 11">+38 096 111 11 11</a>
+			</li>
+			</ul>
+			
+		</nav>
+		
+	</article>
+	<div class="footer-div ">
+		<h4 class="footer-title-h4">приєднуйтесь</h3>
+		<ul class="footer-list">
+		<li class="galery-item-people-img instagram-item">
+			<a class="galery-a-people-img" href="/">
+			<img class="galery-people-image instagram" src="./img/instagram.svg" alt="">
+			</a>
+		</li>
+		<li class="galery-item-people-img twitter-item">
+			<a class="galery-a-people-img" href="/">
+			<img class="galery-people-image twitter" src="./img/twitter.svg" alt="">
+			</a>
+		</li>
+		<li class="galery-item-people-img facebook-item">
+			<a class="galery-a-people-img" href="/">
+			<img class="galery-people-image facebook" src="./img/facebook.svg" alt="">
+		</a>
+		</li>
+		<li class="galery-item-people-img linkedin-item">
+			<a class="galery-a-people-img" href="/">
+			<img class="galery-people-img linkedin" src="./img/linkedin.svg" alt="">
+			</a>
+		</li>
+	</ul>
+	</div>
+	<div class="footer-div-tg"> 
+	<h6 class="footer-title-h6">Підпишіться на розсилку</h6>
+	<input type="text" class="footer-input" placeholder="E-mail">
+	<button class="footer-button">Підписатися<img class="footer-button-img" src="./img/tg-icon.svg" alt=""></button>
+	</div>
+</footer>
+	<script src="./js/modal.js"></script>
+</body >
 </html>

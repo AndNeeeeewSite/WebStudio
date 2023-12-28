@@ -417,8 +417,6 @@ margin-bottom: 0px;
 
 .footer-div{
     background-color: #2F303A;
-    position: absolute;
-    margin-left:33%;
     margin-top: 1.2%;
 }
 
@@ -892,7 +890,6 @@ text-align: center;
 .footer-article{
     display: flex;
     flex-direction: column;
-    position: absolute;
 }
 
 .footer{
@@ -926,5 +923,288 @@ text-align: center;
     padding:27px;
     position: absolute;
     top: 1436px;
+}
+
+
+.modal-home-backdrop{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0,0.5);
+    opacity: 1;
+}
+
+
+.modal-home-backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+.modal-home-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 528px;
+    min-height:581px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding-top: 8px;
+    padding-left: 40px;
+}
+
+.header-button-img-close{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border: 1px solid #E6E6E6;
+    border-radius:100px;
+}
+
+.modal-home-button-close{
+    margin-left: 450px;
+}
+.modal-home-title-h2{
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;  
+    margin-bottom: 12px;
+}
+
+.content{
+    margin-right: 40px;
+}
+ 
+
+.modal-home-title-h6{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.modal-home-input-data{
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    width: 448px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    padding-right: 16px;
+}
+
+.name{
+    background: url('../img/person-black.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
+}
+.poshta{
+    background: url('../img/email-black.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
+}
+
+.nomer{
+    background: url('../img/phone-black.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
+}
+.com-item,
+.poshta-item,
+.nomer-item{
+    margin-top: 10px;
+}
+.modal-home-input-com{
+    width: 448px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    padding-top:12px;
+    padding-bottom: 93px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+.modal-home-input-com::placeholder{
+    width: 416px;
+    height: 96px;
+}
+
+.modal-home-a{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    border-bottom: 0.5px solid #2196F3;
+}
+
+.modal-home-title-h3{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.modal-home-check{
+    width: 16px;
+    height: 15px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    margin-right: 7px;
+}
+
+.modal-home-div-doc{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 423px;
+}
+
+.modal-home-button{
+    border-radius: 4px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    margin-top: 30px;
+}
+
+.footer{
+    justify-content: space-around;
+    padding: 0 30px;
+    padding-top: 60px;
+}
+
+.footer-input{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-title-h6{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-button{
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    margin-left: 12px;
+}
+
+.footer-button-img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.footer-div{
+    margin-left: 70px;
+}
+
+
+.modal-home-input-data:focus{
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+.modal-home-input-com:focus{
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
+.name:focus{
+    background: url('../img/person-blue.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
+}
+.nomer:focus{
+    background: url('../img/phone-blue.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
+}
+.poshta:focus{
+    background: url('../img/email-blue.svg') no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px 11px;
+    padding-left: 42px;
 }
 
