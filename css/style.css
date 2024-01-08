@@ -1279,4 +1279,29 @@ text-align: center;
     width: 322px;
 }
 
+.studio-studio{
+    display:flex;
+}
+.studio-studio::after{
+    position: absolute;
+    content: '';
+    background-color: #188CE8;
+    width: 51px;
+    height: 4px;
+    margin-top:22px;
+    border-radius: 9px;
+}
 
+.portfolio-portfolio{
+    display: flex;
+}
+
+.portfolio-portfolio::after{
+    position: absolute;
+    content: '';
+    background-color: #188CE8;
+    width: 83px;
+    height: 4px;
+    margin-top:22px;
+    border-radius: 9px;
+}
