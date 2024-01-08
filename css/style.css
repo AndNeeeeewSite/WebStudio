@@ -455,22 +455,8 @@ body{
 
 
 
-.portfolio-galery-link-h3{
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
-}
 
-.portfolio-galery-link-h2{
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 0.42px;
-}
+
 .portfolio-footer-logo,
  .portfolio-header-logo{
     font-family: Roboto;
@@ -521,10 +507,7 @@ header{
     margin-bottom: 56px;
 }
 
-.portfolio-galery-link-img
-{
-margin-bottom: 20px;
-}
+
 
 footer{
     margin-top: 114px;
@@ -532,9 +515,7 @@ footer{
 .portfolio-galery-link-h2{
     margin-bottom:4px;
 }
-.portfolio-galery-link-h3{
-    margin-bottom:50px;
-}
+
 
     :root{
         --color1:#2196F3;
@@ -727,7 +708,6 @@ footer{
 .portfolio-galery-item{
     margin-left:30px; 
     margin-bottom:30px; 
-
 }
 
 
@@ -1223,3 +1203,80 @@ text-align: center;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+
+
+.portfolio-galery-item{
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-image: initial;
+    background: rgb(255, 255, 255);
+}
+
+.overlay-home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+    background: rgba(33, 150, 243, 0.90);
+    transition: transform 250ms ease-in-out;
+    transform: translateY(100%);
+    display: flex;
+    justify-content: center;
+    padding-top:63px;
+}  
+
+
+.portfolio-galery-item:hover .overlay-home-overlay{
+
+    transform: translateY(0);
+}   
+
+.overlay-home-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.title-portfolio-galery-item{
+    padding-top:20px;
+    margin-bottom:200px;
+}
+
+.overlay-title-h4{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    width: 322px;
+}
+
+.portfolio-galery-link-h2{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+    width: 322px;
+}
+
+.portfolio-galery-link-h3{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+    width: 322px;
+}
+
+
