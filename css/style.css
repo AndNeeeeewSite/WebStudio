@@ -443,6 +443,7 @@ margin-bottom: 0px;
         letter-spacing: 0.42px; 
     }
 
+
 body{
     font-family: 'Roboto', sans-serif;
     font-family: Roboto;
@@ -491,6 +492,7 @@ body{
     background-color:var(--color2);
     border:var(--color9);
     color: #000000;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .portfolio-galery-button:hover{
@@ -843,10 +845,12 @@ text-align: center;
 }
 
 .header-item-info-e-mail:hover .info-e-mail-title{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
     color: #2196F3;
 }
 .header-item-info-e-mail,
 .header-item-info-number{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
     display: flex;
 }
 
@@ -859,6 +863,7 @@ text-align: center;
 }
 
 .header-item-info-number:hover .number{
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
     content: url("../img/smartphoneh.svg");
 }
 
